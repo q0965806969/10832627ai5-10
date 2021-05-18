@@ -16,7 +16,7 @@ let classifier;
 let label = "listening";
 
 // Teachable Machine model URL:
-let soundModelURL =  'https://q0965806969.github.io/10832627ai5-10/';
+let soundModelURL = 'https://hentaiman123.github.io/aifrog10832626/model.json';
 
 
 function preload() {
@@ -51,4 +51,5 @@ function gotResult(error, results) {
   // console.log(results[0]);
   label = results[0].label;
   ThunkableWebviewerExtension.postMessage(label);
+  
 }
